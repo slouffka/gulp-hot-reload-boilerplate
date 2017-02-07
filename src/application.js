@@ -1,7 +1,8 @@
 import React from 'react'
-import App from './App'
+import ReactDOM from 'react-dom'
+import App from './App.jsx'
 
 const root = document.createElement('div')
 document.body.appendChild(root)
 
-React.render(<App />, root)
+ReactDOM.render(<App />, root)
